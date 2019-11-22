@@ -20,3 +20,6 @@ $ sudo npm i -g gulp<br>
 $ gulp -v<br>
 $ npm init<br>
 $ npm install --save-dev gulp
+
+### gulpの実行
+$ gulp
