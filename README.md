@@ -17,10 +17,16 @@ $ sudo npm config set strict-ssl false<br>
 $ sudo npm i -D gulp-imagemin<br>
 $ sudo npm config set strict-ssl true
 
-### gulp-plumber, webserber
+### sass, gulp-plumber, webserber, lint, prettier
 $ npm i -D gulp-plumber<br>
 $ npm i -D gulp-sass<br>
-$ npm i -D gulp-webserver
+$ npm i -D gulp-webserver<br>
+$ npm i -D gulp-sass-lint<br>
+$ npm i -D gulp-eslint<br>
+$ npm i -D prettier gulp-prettier-plugin
+
+### gulpfile.jsの編集
+### srcで、*.html, *.js, *.sass, *.png|.jpg|.gif　の編集
 
 ### gulpの実行
 $ gulp
