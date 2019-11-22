@@ -21,5 +21,10 @@ $ gulp -v<br>
 $ npm init<br>
 $ npm install --save-dev gulp
 
+### gulp-imagein
+$ sudo npm config set strict-ssl false<br>
+$ sudo npm i -D gulp-imagemin<br>
+$ sudo npm config set strict-ssl true
+
 ### gulpの実行
 $ gulp
