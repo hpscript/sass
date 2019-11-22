@@ -26,7 +26,7 @@ gulp.task('html', function(done){
 
 
 gulp.task('img', function(done){
-	gulp.src('./src/img/*.png')
+	gulp.src(['./src/img/*.png','./src/img/*.jpg','./src/img/*.jpeg','./src/img/*.gif'])
 		.pipe(imagemin())
 		.pipe(gulp.dest('./dest/img'))
 	done();
