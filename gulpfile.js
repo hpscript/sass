@@ -55,6 +55,7 @@ gulp.task('js', function(done){
 
 gulp.task('watch', function(done){
 	gulp.watch('./src/*.html', gulp.task('html'))
+	gulp.watch('./src/img/*', gulp.task('img'))
 	gulp.watch('./src/js/*.html', gulp.task('js'))
 	gulp.watch('./src/sass/*.scss', gulp.task('sass'))
 	done();
