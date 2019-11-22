@@ -7,6 +7,8 @@ $ gem update –system 2.7.10
 ### gulp.js
 $ sudo npm i -g gulp<br>
 $ gulp -v<br>
+$ mkdir front<br>
+$ cd front<br>
 $ npm init<br>
 $ npm install --save-dev gulp
 
