@@ -4,8 +4,7 @@ $ ruby -v
 $ sudo yum install rubygems
 $ gem update –system 2.7.10
 
-
-# gulp.js
+### gulp.js
 $ sudo npm i -g gulp<br>
 $ gulp -v<br>
 $ npm init<br>
@@ -16,7 +15,7 @@ $ sudo npm config set strict-ssl false<br>
 $ sudo npm i -D gulp-imagemin<br>
 $ sudo npm config set strict-ssl true
 
-# gulp-plumber, webserber
+### gulp-plumber, webserber
 $ npm i -D gulp-plumber<br>
 $ npm i -D gulp-sass<br>
 $ npm i -D gulp-webserver
