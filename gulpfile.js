@@ -63,7 +63,7 @@ gulp.task('watch', function(done){
 gulp.task('webserver', function(done){
 	gulp.src('./dest')
 		.pipe(webserver({
-			host:'192.168.34.10',
+			host:'192.168.33.10',
 			port: 8000,
 			livereload: true,
 		}));
