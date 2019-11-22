@@ -26,5 +26,10 @@ $ sudo npm config set strict-ssl false<br>
 $ sudo npm i -D gulp-imagemin<br>
 $ sudo npm config set strict-ssl true
 
+# gulp-plumber, header, webserber
+$ npm i -D gulp-plumber<br>
+$ npm i -D gulp-header<br>
+$ npm i -D gulp-webserver
+
 ### gulpの実行
 $ gulp
