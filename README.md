@@ -26,7 +26,7 @@ $ gulp
 
 # sassのみの場合
 ### sassインストール
-$ gem install sass
+$ gem install sass<br>
 $ sass -v
 
 ### 自動変換
