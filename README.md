@@ -1,7 +1,7 @@
 # sass & gulp 環境構築
 ### ruby・gemインストール
-$ ruby -v
-$ sudo yum install rubygems
+$ ruby -v<br>
+$ sudo yum install rubygems<br>
 $ gem update –system 2.7.10
 
 ### gulp.js
@@ -34,3 +34,9 @@ $ sass –style expanded –watch scss:css
 
 ### module一覧
 https://sass-lang.com/documentation/modules
+
+# sass-lint, es-lint
+# インストール
+$ npm i -D gulp-sass-lint<br>
+$ npm i -D gulp-eslint<br>
+$ npm i -D prettier gulp-prettier-plugin
